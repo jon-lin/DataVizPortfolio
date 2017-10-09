@@ -1,0 +1,28 @@
+export const vizTileData = [
+    {
+      filename: "tweettones-thumbnail.png",
+      url: "https://www.tweettones.me",
+      thumbW: 300,
+      thumbH: 350,
+      frameW: 1000,
+      frameH: 600,
+      forceHeight: true,
+      forceWidth: true
+    },
+    {
+      filename: "hurricane-data-thumbnail.png",
+      url: "https://jclin2013.github.io/HurricaneDataViz/",
+      thumbW: null,
+      thumbH: null,
+      frameW: null,
+      frameH: null
+    },
+    {
+      filename: "mass-shootings-thumbnail.png",
+      url: "https://jclin2013.github.io/MassShootingsViz/",
+      thumbW: null,
+      thumbH: null,
+      frameW: null,
+      frameH: null
+    },
+];
