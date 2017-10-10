@@ -12,15 +12,15 @@ export const vizTileData = [
     {
       filename: "hurricane-data-thumbnail.png",
       url: "https://jclin2013.github.io/HurricaneDataViz/",
-      frameW: "auto",
-      frameH: "auto",
+      frameW: 1200,
+      frameH: 730,
       label: "All Hurricanes vs. Major Hurricanes in America"
     },
     {
       filename: "mass-shootings-thumbnail.png",
       url: "https://jclin2013.github.io/MassShootingsViz/",
-      frameW: "auto",
-      frameH: "auto",
+      frameW: 900,
+      frameH: 650,
       label: "Deadliest Mass Shootings in America"
     },
 ];

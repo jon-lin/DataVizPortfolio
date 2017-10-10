@@ -25,8 +25,8 @@ class Thumbnail extends React.Component {
           '"forceHeight":' + (d.forceHeight || false) + "," +
           '"forceWidth":' + (d.forceWidth || false) + "," +
           '"iframe":' + '{' +
-            '"width":' + d.frameW + "," +
-            '"height":' + d.frameH
+            '"width":' + (d.frameW || "auto") + "," +
+            '"height":' + (d.frameH || "auto")
           + "}}"}
         >
 
