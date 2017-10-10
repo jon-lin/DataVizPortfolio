@@ -15,13 +15,97 @@ button, article, footer, small {
   vertical-align: inherit;
   color: inherit;
   background: transparent;
+  font-family: 'Lato', sans-serif;
 }
 
 /* --- MY CSS BELOW --- */
 
-.vizThumbnailImg {
-  object-fit: contain;
-  width: 500px;
-  height: 500px;
+#page {
+ width: 100%;
+ display: grid;
+ grid-template-rows: 50px 300px 20px 1fr 20px;
+ grid-template-areas:
+    "n"
+    "a"
+    "margin1"
+    "v"
+    "margin2";
+}
+
+#navbar {
+  background-color: gray;
+  grid-area: n;
+}
+
+#animationBanner {
+  background-color: orange;
+  grid-area: a;
+}
+
+#vizIndex {
+  grid-area: v;
+  display: grid;
+  grid-template-columns: 20px 1fr 1fr 1fr 20px;
+  grid-template-areas: "x t t t y";
+}
+
+#vizIndexInnerContainer {
+  width: 100%;
+  grid-area: t;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: "pic pic pic";
+}
+
+.thumbnailContainer {
   border: 1px solid black;
+  position: relative;
+  padding: 10px;
+}
+
+.vizThumbnailImage {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.imageLabelContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageLabelContainer.hidden {
+  background-color: transparent;
+}
+
+.imageLabelContainer.hidden #imageLabel,
+.imageLabelContainer.hidden #imageSublabel {
+  display: none;
+}
+
+ #imageLabel, #imageSublabel  {
+   pointer-events: none;
+   color: white;
+   font-size: 20px;
+   opacity: 1;
+ }
+
+@media (max-width: 1000px) {
+  #vizIndexInnerContainer {
+    grid-template-areas:  "pic pic";
+  }
+}
+
+@media (max-width: 700px) {
+    #vizIndexInnerContainer {
+    grid-template-areas: "pic";
+  }
 }

@@ -6,27 +6,44 @@ class Thumbnail extends React.Component {
     this.d = this.props.vizDatum;
   }
 
+  handleMouseOver(e) {
+    e.target.classList.remove("hidden");
+  }
+
+  handleMouseOut(e) {
+    e.target.classList.add("hidden");
+  }
+
   render() {
     let d = this.d;
 
     return (
-      <a href={d.url}
-        data-rel="lightcase"
-        data-lc-options={"{" +
-        '"forceHeight":' + (d.forceHeight || false) + "," +
-        '"forceWidth":' + (d.forceWidth || false) + "," +
-        '"iframe":' + '{' +
-          '"width":' + d.frameW + "," +
-          '"height":' + d.frameH
-        + "}}"}
-      >
+      <div className="thumbnailContainer">
+        <a href={d.url}
+          data-rel="lightcase"
+          data-lc-options={"{" +
+          '"forceHeight":' + (d.forceHeight || false) + "," +
+          '"forceWidth":' + (d.forceWidth || false) + "," +
+          '"iframe":' + '{' +
+            '"width":' + d.frameW + "," +
+            '"height":' + d.frameH
+          + "}}"}
+        >
 
-        <img
-          className="vizThumbnailImg"
-          src={"thumbnails/" + d.filename}
-        />
+          <img
+            className="vizThumbnailImage"
+            src={"thumbnails/" + d.filename}
+          />
 
-      </a>
+          <div className="imageLabelContainer hidden"
+               onMouseOver={this.handleMouseOver}
+               onMouseOut={this.handleMouseOut}>
+            <div id="imageLabel">{d.label}</div>
+            <div id="imageSublabel">{d.sublabel}</div>
+          </div>
+
+        </a>
+      </div>
     );
   }
 }

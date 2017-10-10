@@ -9,7 +9,14 @@ class VizIndex extends React.Component {
   render() {
     return (
       <div id="vizIndex">
-        { this.props.vizData.map(datum => <Thumbnail key={datum.filename} vizDatum={datum} />) }
+        <div id="vizIndexInnerContainer">
+          {
+            this.props.vizData.map(datum =>
+              <Thumbnail key={datum.filename}
+                vizDatum={datum} />
+            )
+          }
+        </div>
       </div>
     )
   }

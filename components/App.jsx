@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Cube from './Cube';
+import AnimationBanner from './AnimationBanner';
 import VizIndex from './VizIndex';
 import { vizTileData } from './vizTileData';
 
@@ -13,9 +13,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="page">
         <Navbar />
-        <Cube />
+        <AnimationBanner />
         <VizIndex vizData={this.vizTileData} />
       </div>
     )
