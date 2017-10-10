@@ -24,8 +24,6 @@ class Thumbnail extends React.Component {
         <img
           className="vizThumbnailImg"
           src={"thumbnails/" + d.filename}
-          width={d.thumbW || 550}
-          height={d.thumbH || 350}
         />
 
       </a>
@@ -34,6 +32,3 @@ class Thumbnail extends React.Component {
 }
 
 export default Thumbnail;
-
-//      <Thumbnail src={}
-// <img src="thumbnails/mass-shootings-thumbnail.png"></img>
