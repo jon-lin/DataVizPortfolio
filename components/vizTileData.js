@@ -14,7 +14,8 @@ export const vizTileData = [
       url: "https://jclin2013.github.io/HurricaneDataViz/",
       frameW: 1200,
       frameH: 730,
-      label: "All Hurricanes vs. Major Hurricanes in America"
+      label: "Hurricanes in America",
+      sublabel: "All Hurricanes vs. Major Hurricanes Over Time"
     },
     {
       filename: "mass-shootings-thumbnail.png",

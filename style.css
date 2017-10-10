@@ -280,6 +280,7 @@ button, article, footer, small {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .imageLabelContainer.hidden {
@@ -294,8 +295,11 @@ button, article, footer, small {
  #imageLabel, #imageSublabel  {
    pointer-events: none;
    color: white;
-   font-size: 20px;
-   opacity: 1;
+   font-size: 1.3em;
+ }
+
+ #imageSublabel {
+   font-size: 0.8em;
  }
 
 @media (max-width: 1025px) {
