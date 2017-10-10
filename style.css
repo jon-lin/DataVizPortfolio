@@ -129,11 +129,6 @@ button, article, footer, small {
   opacity: 0;
 }
 
-/*@keyframes slideDown {
-  from { height: 0; }
-  to { height: auto; }
-}*/
-
 #animationBanner {
   background-color: #DBE8F2;
   grid-area: a;

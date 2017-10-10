@@ -9,7 +9,6 @@ class Navbar extends React.Component {
   render() {
     $('body').click(e => {
         if ($(e.target).closest('.navbarHamburgerContainer').length === 0 && document.querySelector('.selected')) {
-          console.log("hello")
           this.toggleMenuDropDown();
         }
     });
