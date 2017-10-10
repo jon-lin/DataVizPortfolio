@@ -32,6 +32,8 @@ class AnimationBanner extends React.Component {
 
   			  </div>
   			</div>
+        
+        <div id="particles-js"></div>
 			</div>
     )
   }
