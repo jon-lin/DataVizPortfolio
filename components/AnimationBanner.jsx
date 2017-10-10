@@ -4,6 +4,8 @@ class AnimationBanner extends React.Component {
   render() {
     return (
       <div id="animationBanner">
+
+        {/*rotating cube code based off of CSS Demo: http://vveleva.com/css_demos/ */}
         <div className="cubeWrap">
   			  <div className="cube">
             <a href="https://github.com/jclin2013" target="_blank">
@@ -32,7 +34,7 @@ class AnimationBanner extends React.Component {
 
   			  </div>
   			</div>
-        
+
         <div id="particles-js"></div>
 			</div>
     )

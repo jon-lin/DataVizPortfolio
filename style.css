@@ -20,7 +20,6 @@ button, article, footer, small {
 
 /* --- MY CSS BELOW --- */
 
-
 #page {
  width: 100%;
  height: 100vh;
@@ -37,7 +36,103 @@ button, article, footer, small {
 #navbar {
   background-color: #537B9B;
   grid-area: n;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
 }
+
+.navbarLogoAndText {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  margin-left: 10px;
+  cursor: default;
+}
+
+.navbarLogo {
+  /*height: 25px;
+  margin-right: 5px;*/
+}
+
+.navbarText {
+  font-size: 25px;
+}
+
+.navbarHamburgerContainer {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  border: 1px solid green;
+}
+
+.fa-bars {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  font-size: 30px !important;
+  cursor: pointer;
+}
+
+.fa-bars:hover, .fa-bars.selected {
+  color: rgb(42, 162, 239);
+}
+
+.arrow-up {
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 0px;
+  top: 50px;
+  z-index: 6;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid rgba(0,0,0, 0.8);
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 65px;
+  right: 0;
+  width: 100px;
+  z-index: 10;
+  background-color: rgba(0,0,0, 0.8);
+  padding: 10px;
+  border-radius: 10px 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.dropdownMenu > * {
+  font-size: 20px;
+  pointer-events: all;
+}
+
+.dropdownMenu > *:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.dropdownMenu > *:hover {
+  cursor: pointer;
+  color: #2AA2EF;
+}
+
+.arrow-up, .dropdownMenu {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.dropdownMenu.hidden, .arrow-up.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/*@keyframes slideDown {
+  from { height: 0; }
+  to { height: auto; }
+}*/
 
 #animationBanner {
   background-color: #DBE8F2;
@@ -217,5 +312,11 @@ button, article, footer, small {
 @media (max-width: 700px) {
     #vizIndexInnerContainer {
     grid-template-areas: "pic";
+  }
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    justify-content: flex-start;
   }
 }
