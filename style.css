@@ -124,7 +124,7 @@ button, article, footer, small {
   transform-style: preserve-3d;
 }
 
-.cubeWrap .cube > div {
+.cubeWrap .cube > * div {
   position: absolute;
   box-sizing: border-box;
   padding: 10px;
@@ -186,7 +186,7 @@ button, article, footer, small {
   transform: rotateX(270deg) translateZ(50px) translateY(50px);
 }
 
-.cubeWrap .cube > div { transition: transform 0.2s ease-in; }
+.cubeWrap .cube > * div { transition: transform 0.2s ease-in; }
 
 .cubeWrap .front  { background: hsla( 160, 100%, 50%, 0.7 ); }
 .cubeWrap .back   { background: hsla( 000, 100%, 50%, 0.7 ); }
@@ -195,7 +195,7 @@ button, article, footer, small {
 .cubeWrap .bottom { background: hsla( 240, 100%, 50%, 0.7 ); }
 .cubeWrap .top    { background: hsla( 300, 100%, 50%, 0.7 ); }
 
-.cubeWrap .cube > div:hover {
+.cubeWrap .cube > * div:hover {
   background-color: cornflowerblue;
   border: none;
   outline: 2px dashed cornflowerblue;

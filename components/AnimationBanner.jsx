@@ -6,12 +6,30 @@ class AnimationBanner extends React.Component {
       <div id="animationBanner">
         <div className="cubeWrap">
   			  <div className="cube">
-  			    <div className="front">Github</div>
-  			    <div className="back">LinkedIn</div>
-  			    <div className="top">AngelList</div>
-  			    <div className="bottom">Website</div>
-  			    <div className="left">Resume</div>
-  			    <div className="right">Email</div>
+            <a href="https://github.com/jclin2013" target="_blank">
+			         <div className="front">GitHub</div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/jclin2013/" target="_blank">
+			         <div className="back">LinkedIn</div>
+            </a>
+
+            <a href="https://angel.co/jclin2013" target="_blank">
+			         <div className="top">AngelList</div>
+            </a>
+
+            <a href="https://www.jon-lin.com/" target="_blank">
+  			       <div className="bottom">Website</div>
+            </a>
+
+            <a href="https://drive.google.com/file/d/0B2wkz0QyfcNAem95ZGdEUEFnMFU/view?usp=sharing" target="_blank">
+              <div className="left">Resume</div>
+            </a>
+
+            <a href="mailto:jon.cp.lin@gmail.com" target="_blank">
+			        <div className="right">Email</div>
+            </a>
+
   			  </div>
   			</div>
 			</div>
