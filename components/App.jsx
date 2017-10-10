@@ -17,6 +17,7 @@ class App extends React.Component {
         <Navbar />
         <AnimationBanner />
         <VizIndex vizData={this.vizTileData} />
+        <div id="emptySpace"></div>
       </div>
     )
   }
