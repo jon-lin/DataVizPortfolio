@@ -2,7 +2,7 @@
 * [Live link][live-link]
 
 ## Description
-A collection of my D3.js work on a single website. Click on any thumbnail to open  and interact with any visualization without needing to leave the site.
+A collection of my D3.js work on a single website. Click on any thumbnail to open and interact with a visualization without needing to leave the site.
 
 ## Technologies/Libraries Used
 * React.js
