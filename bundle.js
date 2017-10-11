@@ -22211,9 +22211,13 @@ var Navbar = function (_React$Component) {
           { className: 'navbarLogoAndText' },
           _react2.default.createElement('img', { className: 'navbarLogo', src: '' }),
           _react2.default.createElement(
-            'text',
-            { className: 'navbarText' },
-            'Jon Lin\'s Data Viz Portfolio'
+            'a',
+            { href: 'https://github.com/jclin2013/DataVizPortfolio', target: '_blank' },
+            _react2.default.createElement(
+              'text',
+              { className: 'navbarText' },
+              'Jon Lin\'s Data Viz Portfolio'
+            )
           )
         ),
         _react2.default.createElement(

@@ -18,7 +18,10 @@ class Navbar extends React.Component {
 
         <div className="navbarLogoAndText">
           <img className="navbarLogo" src=""></img>
-          <text className="navbarText">Jon Lin's Data Viz Portfolio</text>
+
+          <a href="https://github.com/jclin2013/DataVizPortfolio" target="_blank">
+            <text className="navbarText">Jon Lin's Data Viz Portfolio</text>
+          </a>
         </div>
 
         <div className="navbarHamburgerContainer">

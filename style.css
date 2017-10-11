@@ -46,9 +46,7 @@ button, article, footer, small {
 .navbarLogoAndText {
   display: flex;
   align-items: center;
-  user-select: none;
   margin-left: 10px;
-  cursor: default;
 }
 
 .navbarLogo {
@@ -311,7 +309,7 @@ button, article, footer, small {
 }
 
 @media (max-width: 700px) {
-    #vizIndexInnerContainer {
+  #vizIndexInnerContainer {
     grid-template-areas: "pic";
   }
 }
