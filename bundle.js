@@ -22233,7 +22233,7 @@ var Navbar = function (_React$Component) {
             ),
             _react2.default.createElement(
               'a',
-              { onClick: this.toggleMenuDropDown, href: 'https://github.com/jclin2013/TweetTones', target: '_blank' },
+              { onClick: this.toggleMenuDropDown, href: 'https://github.com/jclin2013/', target: '_blank' },
               'Github'
             ),
             _react2.default.createElement(

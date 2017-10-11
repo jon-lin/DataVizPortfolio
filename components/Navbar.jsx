@@ -30,7 +30,7 @@ class Navbar extends React.Component {
 
           <div className="dropdownMenu hidden">
             <a onClick={this.toggleMenuDropDown} href="https://www.jon-lin.com/" target="_blank">About Me</a>
-            <a onClick={this.toggleMenuDropDown} href="https://github.com/jclin2013/TweetTones" target="_blank">Github</a>
+            <a onClick={this.toggleMenuDropDown} href="https://github.com/jclin2013/" target="_blank">Github</a>
             <a onClick={this.toggleMenuDropDown} href="https://www.linkedin.com/in/jclin2013/" target="_blank">LinkedIn</a>
             <a onClick={this.toggleMenuDropDown} href="https://angel.co/jclin2013" target="_blank">AngelList</a>
             <a onClick={this.toggleMenuDropDown} href="https://drive.google.com/file/d/0B2wkz0QyfcNAem95ZGdEUEFnMFU/view?usp=sharing" target="_blank">Resume</a>
