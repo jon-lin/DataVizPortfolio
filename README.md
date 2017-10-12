@@ -16,8 +16,8 @@ A collection of my D3.js work on a single website. Click on any thumbnail to ope
 
 ## Screenshot of Website
 
-<img src="./data-viz-portfolio-screenshot.png">
+<img src="/lib/data-viz-portfolio-screenshot.png">
 
 ## GIF of Website in Action
 
-<img src="./data-viz-portfolio-action.gif">
+<img src="/lib/data-viz-portfolio-action.gif">
