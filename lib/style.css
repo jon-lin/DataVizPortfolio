@@ -138,6 +138,7 @@ button, article, footer, small {
   height: 100%;
 }
 
+/*rotating cube CSS based off of CSS Demo: http://vveleva.com/css_demos/*/
 .cubeWrap {
   position: absolute;
   width: 100%;
