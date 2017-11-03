@@ -287,12 +287,11 @@ button, article, footer, small {
   background-color: transparent;
 }
 
-.imageLabelContainer.hidden #imageLabel,
-.imageLabelContainer.hidden #imageSublabel {
+.imageLabelContainer.hidden > * {
   display: none;
 }
 
- #imageLabel, #imageSublabel  {
+.imageLabelContainer > * {
    pointer-events: none;
    color: white;
    font-size: 1.3em;
@@ -301,6 +300,10 @@ button, article, footer, small {
 
  #imageSublabel {
    font-size: 0.8em;
+ }
+
+ #image3rdlabel {
+   font-size: 0.7em;
  }
 
 @media (max-width: 1025px) {

@@ -24,4 +24,15 @@ export const vizTileData = [
       frameH: 650,
       label: "Deadliest Mass Shootings in America"
     },
+    {
+      filename: "disease-lookup-thumbnail.png",
+      url: "https://diseaselookup.herokuapp.com/",
+      frameW: 900,
+      frameH: 650,
+      forceHeight: true,
+      forceWidth: true,
+      label: "DiseaseLookup",
+      sublabel: "Examine medical research data",
+      thirdLabel: "(opens in new window)"
+    },
 ];

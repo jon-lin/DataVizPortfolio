@@ -20,7 +20,8 @@ class Thumbnail extends React.Component {
     return (
       <div className="thumbnailContainer">
         <a href={d.url}
-          data-rel="lightcase"
+          data-rel={d.label !== "DiseaseLookup" && "lightcase"}
+          target={d.label === "DiseaseLookup" && "_blank"}
           data-lc-options={"{" +
           '"forceHeight":' + (d.forceHeight || false) + "," +
           '"forceWidth":' + (d.forceWidth || false) + "," +
@@ -40,6 +41,7 @@ class Thumbnail extends React.Component {
                onMouseOut={this.handleMouseOut}>
             <div id="imageLabel">{d.label}</div>
             <div id="imageSublabel">{d.sublabel}</div>
+            <div id="image3rdlabel">{d.thirdLabel}</div>
           </div>
 
         </a>
