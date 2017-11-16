@@ -35,4 +35,13 @@ export const vizTileData = [
       sublabel: "Examine medical research data",
       thirdLabel: "(opens in new window)"
     },
+    {
+      filename: "2016-us-election-thumbnail.png",
+      url: "https://jclin2013.github.io/2016ElectionViz/",
+      frameW: 650,
+      frameH: 650,
+      forceHeight: true,
+      forceWidth: true,
+      label: "How the U.S. 2016 Election Unfolded"
+    }
 ];
