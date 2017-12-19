@@ -52,6 +52,7 @@ button, article, footer, small {
 .navbarLogo {
   /*height: 25px;
   margin-right: 5px;*/
+  display: none;
 }
 
 .navbarText {
