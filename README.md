@@ -12,7 +12,7 @@ A collection of my D3.js work on a single website. Click on any thumbnail to ope
 * Lightcase.js (for lightboxes)
 * Particles.js (for particles banner)
 
-[live-link]: https://jclin2013.github.io/DataVizPortfolio/
+[live-link]: https://jon-lin.github.io/DataVizPortfolio/
 
 ## Screenshot of Website
 
