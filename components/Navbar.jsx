@@ -19,7 +19,7 @@ class Navbar extends React.Component {
         <div className="navbarLogoAndText">
           <img className="navbarLogo" src=""></img>
 
-          <a href="https://github.com/jclin2013/DataVizPortfolio" target="_blank">
+          <a href="https://github.com/jon-lin/DataVizPortfolio" target="_blank">
             <text className="navbarText">Jon Lin's Data Viz Portfolio</text>
           </a>
         </div>
@@ -33,9 +33,9 @@ class Navbar extends React.Component {
 
           <div className="dropdownMenu hidden">
             <a onClick={this.toggleMenuDropDown} href="https://www.jon-lin.com/" target="_blank">About Me</a>
-            <a onClick={this.toggleMenuDropDown} href="https://github.com/jclin2013/" target="_blank">Github</a>
-            <a onClick={this.toggleMenuDropDown} href="https://www.linkedin.com/in/jclin2013/" target="_blank">LinkedIn</a>
-            <a onClick={this.toggleMenuDropDown} href="https://angel.co/jclin2013" target="_blank">AngelList</a>
+            <a onClick={this.toggleMenuDropDown} href="https://github.com/jon-lin/" target="_blank">Github</a>
+            <a onClick={this.toggleMenuDropDown} href="https://www.linkedin.com/in/jon-lin/" target="_blank">LinkedIn</a>
+            <a onClick={this.toggleMenuDropDown} href="https://angel.co/jon-cp-lin" target="_blank">AngelList</a>
             <a onClick={this.toggleMenuDropDown} href="https://drive.google.com/file/d/0B2wkz0QyfcNAem95ZGdEUEFnMFU/view?usp=sharing" target="_blank">Resume</a>
           </div>
 
