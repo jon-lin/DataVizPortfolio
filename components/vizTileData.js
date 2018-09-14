@@ -11,7 +11,7 @@ export const vizTileData = [
     },
     {
       filename: "hurricane-data-thumbnail.png",
-      url: "https://jclin2013.github.io/HurricaneDataViz/",
+      url: "https://jon-lin.github.io/HurricaneDataViz/",
       frameW: 1200,
       frameH: 730,
       label: "Hurricanes in America",
@@ -19,7 +19,7 @@ export const vizTileData = [
     },
     {
       filename: "mass-shootings-thumbnail.png",
-      url: "https://jclin2013.github.io/MassShootingsViz/",
+      url: "https://jon-lin.github.io/MassShootingsViz/",
       frameW: 900,
       frameH: 650,
       label: "Deadliest Mass Shootings in America"
@@ -37,7 +37,7 @@ export const vizTileData = [
     },
     {
       filename: "2016-us-election-thumbnail.png",
-      url: "https://jclin2013.github.io/2016ElectionViz/",
+      url: "https://jon-lin.github.io/2016ElectionViz/",
       frameW: 650,
       frameH: 650,
       forceHeight: true,
