@@ -8,15 +8,15 @@ class AnimationBanner extends React.Component {
         {/*rotating cube code based off of CSS Demo: http://vveleva.com/css_demos/ */}
         <div className="cubeWrap">
   			  <div className="cube">
-            <a href="https://github.com/jclin2013" target="_blank">
+            <a href="https://github.com/jon-lin" target="_blank">
 			         <div className="front">GitHub</div>
             </a>
 
-            <a href="https://www.linkedin.com/in/jclin2013/" target="_blank">
+            <a href="https://www.linkedin.com/in/jon-lin/" target="_blank">
 			         <div className="back">LinkedIn</div>
             </a>
 
-            <a href="https://angel.co/jclin2013" target="_blank">
+            <a href="https://angel.co/jon-cp-lin" target="_blank">
 			         <div className="top">AngelList</div>
             </a>
 
