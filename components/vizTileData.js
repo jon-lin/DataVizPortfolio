@@ -33,7 +33,6 @@ export const vizTileData = [
       forceWidth: true,
       label: "DiseaseLookup",
       sublabel: "Examine medical research data",
-      thirdLabel: "(opens in new window)"
     },
     {
       filename: "2016-us-election-thumbnail.png",
