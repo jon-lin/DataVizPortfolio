@@ -1,7 +1,7 @@
 export const vizTileData = [
     {
       filename: "tweettones-thumbnail.png",
-      url: "http://tweettones.herokuapp.com/",
+      url: "https://tweettones.herokuapp.com/",
       frameW: 1000,
       frameH: 600,
       forceHeight: true,
